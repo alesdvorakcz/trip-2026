@@ -263,6 +263,13 @@ figcaption { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wra
 .stays b { font-weight: 600; }
 .stays .sn { font-size: 13px; color: var(--muted); }
 
+.stay-link { font-size: 12.5px; font-weight: 500; white-space: nowrap; margin-left: 4px; }
+.crafts { border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 6px; background: var(--paper); }
+.crafts h3 { margin: 0; font-size: 13px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+.crafts ul { margin: 4px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.crafts li { display: grid; gap: 1px; font-size: 15px; line-height: 1.45; }
+.crafts .cw { font-size: 13.5px; color: var(--muted); }
+.crafts .cn { font-size: 14px; }
 .where { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; align-items: start; }
 .where .map { height: 360px; }
 @media (min-width: 900px) { .where { grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); } .where .map { height: 400px; } }
